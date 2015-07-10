@@ -1,0 +1,19 @@
+1436427704s:528:"a:2:{s:5:"mtime";i:1436427100;s:7:"content";s:474:"<link rel="stylesheet" type="text/css" href="plugins/Spec/uGallery/components/gallerij/resources/UberGallery.css" />
+<script src={{'assets/js/plugins.js'|theme}}></script>
+<script src={{'assets/js/jquery.prettyPhoto.js'|theme}}></script>
+<script src={{'assets/js/main.js'|theme}}></script>
+
+{% put scripts %}
+    
+    $(document).ready(function(){
+        $("[rel^='lightbox']").prettyPhoto();
+    });
+    
+{% endput %}
+
+<section id="photos">
+{{__SELF__.View}}
+</section>
+
+
+";}";

@@ -1,0 +1,9 @@
+1436521852s:507:"a:6:{s:5:"mtime";i:1436521061;s:7:"content";s:157:"title = "Home3"
+url = "/home3"
+layout = "main_layout"
+is_hidden = "0"
+
+[Gallery]
+location = "storage/app/media/project1"
+==
+{% component 'Gallery' %}";s:7:"viewBag";a:0:{}s:8:"settings";a:5:{s:5:"title";s:5:"Home3";s:3:"url";s:6:"/home3";s:6:"layout";s:11:"main_layout";s:9:"is_hidden";s:1:"0";s:10:"components";a:1:{s:7:"Gallery";a:1:{s:8:"location";s:26:"storage/app/media/project1";}}}s:4:"code";N;s:6:"markup";s:25:"{% component 'Gallery' %}";}";

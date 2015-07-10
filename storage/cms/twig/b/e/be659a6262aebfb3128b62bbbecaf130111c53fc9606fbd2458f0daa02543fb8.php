@@ -30,27 +30,27 @@ class __TwigTemplate_be659a6262aebfb3128b62bbbecaf130111c53fc9606fbd2458f0daa025
     <title>Архитектурная Галерея</title>
 
     <!-- Bootstrap Core CSS -->
-    <link href=";
+    ";
         // line 15
+        echo $this->env->getExtension('CMS')->assetsFunction('css');
+        echo $this->env->getExtension('CMS')->displayBlock('styles');
+        // line 16
+        echo "    <link href=";
         echo $this->env->getExtension('CMS')->themeFilter("assets/css/bootstrap.min.css");
         echo " rel=\"stylesheet\">
 
     <!-- Custom CSS -->
     <link href=";
-        // line 18
+        // line 19
         echo $this->env->getExtension('CMS')->themeFilter("assets/css/simple-sidebar.css");
         echo " rel=\"stylesheet\">
     
     <link href=";
-        // line 20
+        // line 21
         echo $this->env->getExtension('CMS')->themeFilter("assets/css/custom.css");
         echo " rel=\"stylesheet\">
     
-    <link rel=\"stylesheet\" type=\"text/css\" href=";
-        // line 22
-        echo $this->env->getExtension('CMS')->themeFilter("assets/css/transitions.css");
-        echo " media=\"all\" />
-    
+
     <link rel=\"stylesheet\" href=";
         // line 24
         echo $this->env->getExtension('CMS')->themeFilter("assets/css/main.css");
@@ -129,7 +129,12 @@ class __TwigTemplate_be659a6262aebfb3128b62bbbecaf130111c53fc9606fbd2458f0daa025
         \$(\"#wrapper\").toggleClass(\"toggled\");
     });
     </script>
-
+    ";
+        // line 87
+        echo $this->env->getExtension('CMS')->assetsFunction('js');
+        echo $this->env->getExtension('CMS')->displayBlock('scripts');
+        // line 88
+        echo "
 </body>
 
 </html>";
@@ -147,6 +152,6 @@ class __TwigTemplate_be659a6262aebfb3128b62bbbecaf130111c53fc9606fbd2458f0daa025
 
     public function getDebugInfo()
     {
-        return array (  116 => 71,  114 => 70,  73 => 32,  67 => 29,  61 => 26,  56 => 24,  51 => 22,  46 => 20,  41 => 18,  35 => 15,  19 => 1,);
+        return array (  137 => 88,  134 => 87,  116 => 71,  114 => 70,  73 => 32,  67 => 29,  61 => 26,  56 => 24,  50 => 21,  45 => 19,  38 => 16,  35 => 15,  19 => 1,);
     }
 }

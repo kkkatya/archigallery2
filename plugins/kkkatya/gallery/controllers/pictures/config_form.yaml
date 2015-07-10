@@ -1,0 +1,31 @@
+# ===================================
+#  Form Behavior Config
+# ===================================
+
+# Record name
+name: Picture
+
+# Model Form Field configuration
+form: $/kkkatya/gallery/models/picture/fields.yaml
+
+# Model Class name
+modelClass: Kkkatya\Gallery\Models\Picture
+
+# Default redirect location
+defaultRedirect: kkkatya/gallery/pictures
+
+# Create page
+create:
+    title: Create Picture
+    redirect: kkkatya/gallery/pictures/update/:id
+    redirectClose: kkkatya/gallery/pictures
+
+# Update page
+update:
+    title: Edit Picture
+    redirect: kkkatya/gallery/pictures
+    redirectClose: kkkatya/gallery/pictures
+
+# Preview page
+preview:
+    title: Preview Picture
