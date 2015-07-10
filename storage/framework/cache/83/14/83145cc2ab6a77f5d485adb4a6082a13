@@ -1,4 +1,4 @@
-1436522206s:1842:"a:2:{s:5:"mtime";i:1436521599;s:7:"content";s:1787:"{% put styles %}
+1436525027s:2198:"a:2:{s:5:"mtime";i:1436524424;s:7:"content";s:2143:"{% put styles %}
     <style>
         #{{ __SELF__ }} {
             list-style: none outside none;
@@ -47,15 +47,20 @@
     </script>
 {% endput %}
 
-<section id="photos">
+
     <ul id="{{ __SELF__ }}" class="{{ __SELF__ }}">
+        <li data-src="{{ gallery.images[0].path }}" data-title="{{ gallery.images[0].title }}" data-desc="{{ gallery.images[0].description }}">
+            <a class="thum" href="#"><img src="{{ gallery.images[0].path }}" alt="{{ gallery.images[0].title }}" /></a>
+        </li>
         {% for image in gallery.images %}
+            {% if image != gallery.images[0] %}
             <li data-src="{{ image.path }}" data-title="{{ image.title }}" data-desc="{{ image.description }}">
-                <a href="#"><img src="{{ image.path }}" alt="{{ image.title }}" /></a>
+                <a class="thum" href="#"><img src="{{ image.path }}" alt="{{ image.title }}" style="display:none;" /></a>
             </li>
+            {% endif %}
         {% endfor %}
     </ul>
-</style>
+
 
 
         ";}";

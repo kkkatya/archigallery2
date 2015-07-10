@@ -1,5 +1,5 @@
-1436521852s:9957:"a:6:{s:5:"mtime";i:1434969875;s:7:"content";s:4888:"title = "Home"
-url = "/"
+1436524990s:9969:"a:6:{s:5:"mtime";i:1436522988;s:7:"content";s:4894:"title = "Home1"
+url = "/home1"
 layout = "main_layout"
 is_hidden = "0"
 ==
@@ -90,7 +90,7 @@ is_hidden = "0"
                         </div>
                     </div>
                     
-                    <!-- /.row (nested) -->";s:7:"viewBag";a:0:{}s:8:"settings";a:5:{s:5:"title";s:4:"Home";s:3:"url";s:1:"/";s:6:"layout";s:11:"main_layout";s:9:"is_hidden";s:1:"0";s:10:"components";a:0:{}}s:4:"code";N;s:6:"markup";s:4816:"<div class="row">
+                    <!-- /.row (nested) -->";s:7:"viewBag";a:0:{}s:8:"settings";a:5:{s:5:"title";s:5:"Home1";s:3:"url";s:6:"/home1";s:6:"layout";s:11:"main_layout";s:9:"is_hidden";s:1:"0";s:10:"components";a:0:{}}s:4:"code";N;s:6:"markup";s:4816:"<div class="row">
                         <div class="col-lg-3 col-md-4">
                             <div class="portfolio-item">
                                 <a href="#">

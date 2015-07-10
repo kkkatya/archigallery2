@@ -136,41 +136,62 @@ class __TwigTemplate_878f3a49b923ac1407d46808bbe66badc6f75ca8cb7d10a292a6a92d3c5
         echo $this->env->getExtension('CMS')->endBlock(true        );
         // line 49
         echo "
-<section id=\"photos\">
+
     <ul id=\"";
         // line 51
         echo twig_escape_filter($this->env, (isset($context["__SELF__"]) ? $context["__SELF__"] : null), "html", null, true);
         echo "\" class=\"";
         echo twig_escape_filter($this->env, (isset($context["__SELF__"]) ? $context["__SELF__"] : null), "html", null, true);
         echo "\">
-        ";
+        <li data-src=\"";
         // line 52
+        echo twig_escape_filter($this->env, $this->getAttribute($this->getAttribute($this->getAttribute((isset($context["gallery"]) ? $context["gallery"] : null), "images", array()), 0, array(), "array"), "path", array()), "html", null, true);
+        echo "\" data-title=\"";
+        echo twig_escape_filter($this->env, $this->getAttribute($this->getAttribute($this->getAttribute((isset($context["gallery"]) ? $context["gallery"] : null), "images", array()), 0, array(), "array"), "title", array()), "html", null, true);
+        echo "\" data-desc=\"";
+        echo twig_escape_filter($this->env, $this->getAttribute($this->getAttribute($this->getAttribute((isset($context["gallery"]) ? $context["gallery"] : null), "images", array()), 0, array(), "array"), "description", array()), "html", null, true);
+        echo "\">
+            <a class=\"thum\" href=\"#\"><img src=\"";
+        // line 53
+        echo twig_escape_filter($this->env, $this->getAttribute($this->getAttribute($this->getAttribute((isset($context["gallery"]) ? $context["gallery"] : null), "images", array()), 0, array(), "array"), "path", array()), "html", null, true);
+        echo "\" alt=\"";
+        echo twig_escape_filter($this->env, $this->getAttribute($this->getAttribute($this->getAttribute((isset($context["gallery"]) ? $context["gallery"] : null), "images", array()), 0, array(), "array"), "title", array()), "html", null, true);
+        echo "\" /></a>
+        </li>
+        ";
+        // line 55
         $context['_parent'] = (array) $context;
         $context['_seq'] = twig_ensure_traversable($this->getAttribute((isset($context["gallery"]) ? $context["gallery"] : null), "images", array()));
         foreach ($context['_seq'] as $context["_key"] => $context["image"]) {
-            // line 53
-            echo "            <li data-src=\"";
-            echo twig_escape_filter($this->env, $this->getAttribute($context["image"], "path", array()), "html", null, true);
-            echo "\" data-title=\"";
-            echo twig_escape_filter($this->env, $this->getAttribute($context["image"], "title", array()), "html", null, true);
-            echo "\" data-desc=\"";
-            echo twig_escape_filter($this->env, $this->getAttribute($context["image"], "description", array()), "html", null, true);
-            echo "\">
-                <a href=\"#\"><img src=\"";
-            // line 54
-            echo twig_escape_filter($this->env, $this->getAttribute($context["image"], "path", array()), "html", null, true);
-            echo "\" alt=\"";
-            echo twig_escape_filter($this->env, $this->getAttribute($context["image"], "title", array()), "html", null, true);
-            echo "\" /></a>
+            // line 56
+            echo "            ";
+            if (($context["image"] != $this->getAttribute($this->getAttribute((isset($context["gallery"]) ? $context["gallery"] : null), "images", array()), 0, array(), "array"))) {
+                // line 57
+                echo "            <li data-src=\"";
+                echo twig_escape_filter($this->env, $this->getAttribute($context["image"], "path", array()), "html", null, true);
+                echo "\" data-title=\"";
+                echo twig_escape_filter($this->env, $this->getAttribute($context["image"], "title", array()), "html", null, true);
+                echo "\" data-desc=\"";
+                echo twig_escape_filter($this->env, $this->getAttribute($context["image"], "description", array()), "html", null, true);
+                echo "\">
+                <a class=\"thum\" href=\"#\"><img src=\"";
+                // line 58
+                echo twig_escape_filter($this->env, $this->getAttribute($context["image"], "path", array()), "html", null, true);
+                echo "\" alt=\"";
+                echo twig_escape_filter($this->env, $this->getAttribute($context["image"], "title", array()), "html", null, true);
+                echo "\" style=\"display:none;\" /></a>
             </li>
-        ";
+            ";
+            }
+            // line 61
+            echo "        ";
         }
         $_parent = $context['_parent'];
         unset($context['_seq'], $context['_iterated'], $context['_key'], $context['image'], $context['_parent'], $context['loop']);
         $context = array_intersect_key($context, $_parent) + $_parent;
-        // line 57
+        // line 62
         echo "    </ul>
-</style>
+
 
 
         ";
@@ -188,6 +209,6 @@ class __TwigTemplate_878f3a49b923ac1407d46808bbe66badc6f75ca8cb7d10a292a6a92d3c5
 
     public function getDebugInfo()
     {
-        return array (  172 => 57,  161 => 54,  152 => 53,  148 => 52,  142 => 51,  138 => 49,  136 => 18,  129 => 44,  123 => 41,  119 => 40,  115 => 39,  111 => 38,  104 => 34,  98 => 31,  92 => 28,  88 => 27,  84 => 26,  80 => 25,  76 => 24,  72 => 23,  67 => 21,  63 => 19,  61 => 18,  59 => 1,  53 => 14,  49 => 13,  45 => 12,  40 => 10,  36 => 9,  32 => 8,  24 => 3,  21 => 2,  19 => 1,);
+        return array (  193 => 62,  187 => 61,  179 => 58,  170 => 57,  167 => 56,  163 => 55,  156 => 53,  148 => 52,  142 => 51,  138 => 49,  136 => 18,  129 => 44,  123 => 41,  119 => 40,  115 => 39,  111 => 38,  104 => 34,  98 => 31,  92 => 28,  88 => 27,  84 => 26,  80 => 25,  76 => 24,  72 => 23,  67 => 21,  63 => 19,  61 => 18,  59 => 1,  53 => 14,  49 => 13,  45 => 12,  40 => 10,  36 => 9,  32 => 8,  24 => 3,  21 => 2,  19 => 1,);
     }
 }
