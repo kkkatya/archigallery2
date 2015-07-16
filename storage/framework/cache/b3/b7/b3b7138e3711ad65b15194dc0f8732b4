@@ -1,4 +1,4 @@
-1436525452s:5650:"a:6:{s:5:"mtime";i:1436521252;s:7:"content";s:2749:"==
+1437035363s:6400:"a:6:{s:5:"mtime";i:1437032487;s:7:"content";s:3124:"==
 <!DOCTYPE html>
 <html lang="en">
 
@@ -10,7 +10,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Архитектурная Галерея</title>
+    <title>{{ this.page.title }}</title>
 
     <!-- Bootstrap Core CSS -->
     {% styles %}
@@ -21,14 +21,19 @@
     
     <link href={{ 'assets/css/custom.css'|theme }} rel="stylesheet">
     
+    <link href={{ 'assets/font-awesome/css/font-awesome.min.css'|theme }} rel="stylesheet">
+
+    
 
     <link rel="stylesheet" href={{'assets/css/main.css'|theme}}>
+    <link rel="stylesheet" href={{'assets/css/grayscale.css'|theme}}>
+    <link rel="stylesheet" href={{'assets/css/agency.css'|theme}}>
     <link href='http://fonts.googleapis.com/css?family=Yesteryear' rel='stylesheet' type='text/css'>
     <script src={{'assets/js/modernizr-2.6.2-respond-1.1.0.min.js'|theme}}></script>
+
     
     <script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
         <script src={{'assets/js/jquery.js'|theme }}></script>
-
     <!-- Bootstrap Core JavaScript -->
     <script src={{ 'assets/js/bootstrap.min.js'|theme }}></script>
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -37,6 +42,8 @@
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
+    
+    <script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript"></script>
 
 </head>
 
@@ -47,19 +54,17 @@
         <!-- Sidebar -->
         <div id="sidebar-wrapper">
             <ul class="sidebar-nav">
-                <li class="sidebar-brand">
-                    <a href="#">
-                        Архитектурная Галерея
-                    </a>
+                <a href="/">
+                    <img id="logo" src={{ 'assets/img/logo.jpg'|theme }} alt="Архитектурная галерея Ильдара Енилеева"/>
+                </a>
+                <li>
+                    <a href="/">Главная</a>
                 </li>
                 <li>
-                    <a href="#">Главная</a>
+                    <a href="/about">О нас</a>
                 </li>
                 <li>
-                    <a href="#">О нас</a>
-                </li>
-                <li>
-                    <a href="#">Контакты</a>
+                    <a href="/contacts">Контакты</a>
                 </li>
             </ul>
         </div>
@@ -67,7 +72,7 @@
 
         <!-- Page Content -->
         
-        <div id="page-content-wrapper">
+        <div id="page-content-wrapper" style="position:relative;">
             {% page %}
         </div>
         <!-- /#page-content-wrapper -->
@@ -89,7 +94,7 @@
 
 </body>
 
-</html>";s:7:"viewBag";a:0:{}s:8:"settings";a:1:{s:10:"components";a:0:{}}s:4:"code";N;s:6:"markup";s:2745:"<!DOCTYPE html>
+</html>";s:7:"viewBag";a:0:{}s:8:"settings";a:1:{s:10:"components";a:0:{}}s:4:"code";N;s:6:"markup";s:3120:"<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -100,7 +105,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Архитектурная Галерея</title>
+    <title>{{ this.page.title }}</title>
 
     <!-- Bootstrap Core CSS -->
     {% styles %}
@@ -111,14 +116,19 @@
     
     <link href={{ 'assets/css/custom.css'|theme }} rel="stylesheet">
     
+    <link href={{ 'assets/font-awesome/css/font-awesome.min.css'|theme }} rel="stylesheet">
+
+    
 
     <link rel="stylesheet" href={{'assets/css/main.css'|theme}}>
+    <link rel="stylesheet" href={{'assets/css/grayscale.css'|theme}}>
+    <link rel="stylesheet" href={{'assets/css/agency.css'|theme}}>
     <link href='http://fonts.googleapis.com/css?family=Yesteryear' rel='stylesheet' type='text/css'>
     <script src={{'assets/js/modernizr-2.6.2-respond-1.1.0.min.js'|theme}}></script>
+
     
     <script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
         <script src={{'assets/js/jquery.js'|theme }}></script>
-
     <!-- Bootstrap Core JavaScript -->
     <script src={{ 'assets/js/bootstrap.min.js'|theme }}></script>
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -127,6 +137,8 @@
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
+    
+    <script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript"></script>
 
 </head>
 
@@ -137,19 +149,17 @@
         <!-- Sidebar -->
         <div id="sidebar-wrapper">
             <ul class="sidebar-nav">
-                <li class="sidebar-brand">
-                    <a href="#">
-                        Архитектурная Галерея
-                    </a>
+                <a href="/">
+                    <img id="logo" src={{ 'assets/img/logo.jpg'|theme }} alt="Архитектурная галерея Ильдара Енилеева"/>
+                </a>
+                <li>
+                    <a href="/">Главная</a>
                 </li>
                 <li>
-                    <a href="#">Главная</a>
+                    <a href="/about">О нас</a>
                 </li>
                 <li>
-                    <a href="#">О нас</a>
-                </li>
-                <li>
-                    <a href="#">Контакты</a>
+                    <a href="/contacts">Контакты</a>
                 </li>
             </ul>
         </div>
@@ -157,7 +167,7 @@
 
         <!-- Page Content -->
         
-        <div id="page-content-wrapper">
+        <div id="page-content-wrapper" style="position:relative;">
             {% page %}
         </div>
         <!-- /#page-content-wrapper -->
