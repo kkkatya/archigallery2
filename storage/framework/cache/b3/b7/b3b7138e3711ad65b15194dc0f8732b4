@@ -1,4 +1,4 @@
-1437035363s:6400:"a:6:{s:5:"mtime";i:1437032487;s:7:"content";s:3124:"==
+1437472079s:6620:"a:6:{s:5:"mtime";i:1437471471;s:7:"content";s:3234:"==
 <!DOCTYPE html>
 <html lang="en">
 
@@ -61,6 +61,9 @@
                     <a href="/">Главная</a>
                 </li>
                 <li>
+                    <a href="/portfolio">Портфолио</a>
+                </li>
+                <li>
                     <a href="/about">О нас</a>
                 </li>
                 <li>
@@ -94,7 +97,7 @@
 
 </body>
 
-</html>";s:7:"viewBag";a:0:{}s:8:"settings";a:1:{s:10:"components";a:0:{}}s:4:"code";N;s:6:"markup";s:3120:"<!DOCTYPE html>
+</html>";s:7:"viewBag";a:0:{}s:8:"settings";a:1:{s:10:"components";a:0:{}}s:4:"code";N;s:6:"markup";s:3230:"<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -154,6 +157,9 @@
                 </a>
                 <li>
                     <a href="/">Главная</a>
+                </li>
+                <li>
+                    <a href="/portfolio">Портфолио</a>
                 </li>
                 <li>
                     <a href="/about">О нас</a>

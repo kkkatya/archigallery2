@@ -117,6 +117,9 @@ class __TwigTemplate_be659a6262aebfb3128b62bbbecaf130111c53fc9606fbd2458f0daa025
                     <a href=\"/\">Главная</a>
                 </li>
                 <li>
+                    <a href=\"/portfolio\">Портфолио</a>
+                </li>
+                <li>
                     <a href=\"/about\">О нас</a>
                 </li>
                 <li>
@@ -130,9 +133,9 @@ class __TwigTemplate_be659a6262aebfb3128b62bbbecaf130111c53fc9606fbd2458f0daa025
         
         <div id=\"page-content-wrapper\" style=\"position:relative;\">
             ";
-        // line 75
+        // line 78
         echo $this->env->getExtension('CMS')->pageFunction();
-        // line 76
+        // line 79
         echo "        </div>
         <!-- /#page-content-wrapper -->
 
@@ -150,10 +153,10 @@ class __TwigTemplate_be659a6262aebfb3128b62bbbecaf130111c53fc9606fbd2458f0daa025
     });
     </script>
     ";
-        // line 92
+        // line 95
         echo $this->env->getExtension('CMS')->assetsFunction('js');
         echo $this->env->getExtension('CMS')->displayBlock('scripts');
-        // line 93
+        // line 96
         echo "
 </body>
 
@@ -172,6 +175,6 @@ class __TwigTemplate_be659a6262aebfb3128b62bbbecaf130111c53fc9606fbd2458f0daa025
 
     public function getDebugInfo()
     {
-        return array (  157 => 93,  154 => 92,  136 => 76,  134 => 75,  113 => 57,  90 => 37,  85 => 35,  78 => 31,  73 => 29,  69 => 28,  65 => 27,  58 => 23,  53 => 21,  48 => 19,  41 => 16,  38 => 15,  32 => 12,  19 => 1,);
+        return array (  160 => 96,  157 => 95,  139 => 79,  137 => 78,  113 => 57,  90 => 37,  85 => 35,  78 => 31,  73 => 29,  69 => 28,  65 => 27,  58 => 23,  53 => 21,  48 => 19,  41 => 16,  38 => 15,  32 => 12,  19 => 1,);
     }
 }
