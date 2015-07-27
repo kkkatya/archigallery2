@@ -21,6 +21,7 @@ return [
     ],
     'modeldata' => [
     	'name' => 'Name',
+        'type' => 'Type',
     	'created' => 'Created',
     	'updated' => 'Updated',
     	'images' => 'Images'

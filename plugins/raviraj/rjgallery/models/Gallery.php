@@ -41,4 +41,8 @@ class Gallery extends Model
         'images' => ['System\Models\File', 'order' => 'sort_order'],
     ];
 
+    public function getTypeOptions($keyValue = null)
+    {
+        return ['all' => 'All', 'arch' => 'Architecture', 'design' => 'Design', 'visual' => 'Visualisation'];
+}
 }

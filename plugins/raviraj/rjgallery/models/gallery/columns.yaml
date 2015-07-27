@@ -7,6 +7,10 @@ columns:
         label: raviraj.rjgallery::lang.modeldata.name
         searchable: true
 
+    type:
+        label: raviraj.rjgallery::lang.modeldata.type
+        searchable: true
+
     created_at:
         label: raviraj.rjgallery::lang.modeldata.created
 
